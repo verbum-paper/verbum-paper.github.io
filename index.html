@@ -74,9 +74,20 @@
                 <h1 class="fw-light"><i class="fa fa-star"></i> The Project</h1>
               </div>
               
-              <div class="section-description" >
+              <div class="section-description" style="text-align:justify;" >
                 <p>
-                  The purpose of creating the "Clean Project Landing Page" is to have a simple and objective Bootstrap Template, to be used in small projects.
+
+                  <center>
+                    <img src="./img/1.png" width="90%">
+                  </center>
+                  <br><br>
+
+                  Verbum Paper is a software that is intended to be used to facilitate the sharing of formulas, equations, and things involving mathematics.<br><br>
+
+                  Through it you can write your file using CSS, HTML and Javascript code. You can import external libraries written in Javascript, such as for building graphics, or for something in particular.<br><br>
+
+                  Via Verbum Paper you can insert graphics for functions (eg 2nd degree functions). You can also insert LaTex code mixed in with your HTML code. You can also copy your math expressions to Clipboard. This way you can easily share your math equations with your friends.
+
                 </p>
               </div>
 
@@ -96,11 +107,35 @@
                 <h1 class="fw-light"><i class="fa fa-download" ></i> Install</h1>
               </div>
               
-              <div class="section-description" >
+              <div class="section-description" style="text-align: justify;">
                 <p>
+
+                  <b>Note: This installation process is for Linux environment.</b><br><br>
+
+                  Requirements:
+                  <ul>
+                    <li>git</li>
+                    <li>unzip</li>
+                    <li>wget</li>
+                  </ul>
+
+                  <br>
+                  Enter the directory where you want to install Verbum Paper, for example:
+
                   <pre><code class="language-bash">
-git clone https://github.com/melchisedech333/clean-project-landing-page.git
-                  </code></pre>
+mkdir ~/verbum-paper
+cd ~/verbum-paper
+</code></pre>
+
+                  <br>
+                  Run the install script:
+
+                  <pre><code class="language-bash">
+wget -c https://raw.githubusercontent.com/verbum-paper/verbum-paper/main/verbum-install/verbum-install.sh
+chmod +x verbum-install.sh
+./verbum-install.sh
+</code></pre>
+
                 </p>
               </div>
 
