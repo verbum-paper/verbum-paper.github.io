@@ -174,7 +174,78 @@ verbum-paper
               <div class="section-text" >
                 <p>
                   
+                  <h3>Copying to Clipboard</h3>
+
+                  To copy your document, in image form, to the Clipboard, click on the icon:<br><Br>
+
+                  <img src="./img/7.png" alt="">
+
+
+                  <br><br><br><br>
+                  <h3>LaTex code</h3>
+
+                  To insert LaTex code, you must follow the MathLive specification: 
+
+                  <a href="https://cortexjs.io/mathlive/reference/commands/" target="_blank" >https://cortexjs.io/mathlive/reference/commands/</a>
+
+                  <br><br>
                   
+                  Example to include an equation:
+
+                  <br><br>
+
+                  <pre><code class="language-latex">
+\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+                  </code></pre>
+
+                  <br><br>
+                  <h3>Mathematical function graphs</h3>
+
+                  To create graphs of quadratic functions, the Function Plot library is used. Exemple:
+
+                  <br><br>
+
+
+                  <pre><code class="language-html">
+&lt;div id="function">&lt;/div>
+                  </code></pre>
+
+                  <pre><code class="language-javascript">
+functionPlot({
+    target: "#function",
+    width: 400,
+    height: 200,
+    yAxis: { domain: [-1, 9] },
+    grid: true,
+    data: [ {
+        fn: "x^2"
+    }]
+});
+                  </code></pre>
+
+                  <br>
+                  The code above will produce this view:
+
+                  <br><br>
+
+                  <img src="./img/4.png" alt="">
+
+
+                  <br><br><br><br>
+                  <h3>Exporting files</h3>
+
+                  To export your file to the formats: HTML, PNG and PDF; click on their respective icons.
+
+                  <br><br>
+
+                  <img src="./img/8.png" alt="">
+
+                  <br><br><br><br>
+                  <h3>More information</h3>
+                  
+                  For more information, visit the project's Github page:
+
+                  <a href="https://github.com/verbum-paper/verbum-paper" >https://github.com/verbum-paper/verbum-paper</a>
 
                 </p>
               </div>
@@ -209,6 +280,7 @@ verbum-paper
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/javascript.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/bash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/latex.min.js"></script>
   <script>hljs.highlightAll();</script>
 
 </body>
