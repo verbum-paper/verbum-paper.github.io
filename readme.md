@@ -11,6 +11,14 @@ You can visit the website here: <a href="https://verbum-paper.github.io/">verbum
 
 You can also access the main repository here: <a href="https://github.com/verbum-paper/verbum-paper">github.com/verbum-paper/verbum-paper</a>
 
-**If my code has helped you, please consider [sponsoring me](https://github.com/sponsors/melchisedech333) :blue_heart:** 
+
+**If you liked this project, or if it was useful to you, please [consider becoming a sponsor](https://github.com/sponsors/verbum-paper) :blue_heart:**
+
+<br>
+
+:scroll: License
+---
+
+[ BSD-3-Clause license](https://raw.githubusercontent.com/verbum-paper/verbum-paper/main/license) © Verbum Paper
 
 
