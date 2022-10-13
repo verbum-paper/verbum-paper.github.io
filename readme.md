@@ -19,6 +19,6 @@ You can also access the main repository here: <a href="https://github.com/verbum
 :scroll: License
 ---
 
-[ BSD-3-Clause license](https://raw.githubusercontent.com/verbum-paper/verbum-paper/main/license) © Verbum Paper
+[ BSD-3-Clause license](license) © Verbum Paper
 
 
